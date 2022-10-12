@@ -73,7 +73,12 @@ function option0020(){
 function submit001(){
     z=a+b+c+i+g;
     message001.innerHTML="End of quiz";
-    alert("your score is "+z);
+    alert("your score is "+z+"<br/><br/>"+
+    "what is 1+1? You answer "+d+".The correct answer is 2"+"<br><br>"+
+    "what is 1+5? You answer "+e+".The correct answer is 6"+"<br><br>"+
+    "what is 13+5? You answer "+f+".The correct answer is 18"+"<br><br>"+
+    "what is 20+30? You answer "+h+".The correct answer is 50"+"<br><br>"+ 
+    "what is 60+59? You answer "+j+".The correct answer is 119"+"<br><br>");
     click001.innerHTML="<button onclick=repeat001()>Repeat</button>";
 }
 function repeat001(){
